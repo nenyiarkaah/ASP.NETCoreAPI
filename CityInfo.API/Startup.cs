@@ -19,16 +19,6 @@ namespace CityInfo.API
         {
             services.AddMvc()
                 .AddMvcOptions(o => o.OutputFormatters.Add(new XmlDataContractSerializerOutputFormatter()));
-//                .AddJsonOptions(o =>
-//            {
-//                if (o.SerializerSettings.ContractResolver != null)
-//                {
-//                    var castResolver = o.SerializerSettings.ContractResolver
-//                        as DefaultContractResolver;
-//                    castResolver.NamingStrategy = null;
-//                }
-//                
-//            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
