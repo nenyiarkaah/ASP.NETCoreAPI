@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace CityInfo.API.Enitities
+namespace CityInfo.API.Entities
 {
     public class CityInfoContext : DbContext
     {

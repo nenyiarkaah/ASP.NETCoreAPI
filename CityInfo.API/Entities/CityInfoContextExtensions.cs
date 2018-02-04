@@ -2,7 +2,7 @@
 using System.Linq;
 using CityInfo.API.Models;
 
-namespace CityInfo.API.Enitities
+namespace CityInfo.API.Entities
 {
     public static class CityInfoContextExtensions 
     {
